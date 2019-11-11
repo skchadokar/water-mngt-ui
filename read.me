@@ -1,0 +1,18 @@
+Step to deploy
+
+1. Checkout
+2. update local with repo ->npm install
+3. npm run build
+4. got build folder
+5. pm2 start npm -- start    ==> stop  : pm2 stop all => log : pm2 log ==> pm2 list
+
+use this common for custom port which is declared in .env file
+
+pm2 start scripts/start.js --name "Nokia"
+pm2 start scripts/start.js --name “ER”
+
+pm2 start scripts/start.js -i 4 --name "Nokia" -> for 4 instance
+
+.env==============
+PORT=3000
+ABSOLUTE_STATIC_PATH=/usr/apps/zite/nokiawotool_2_1/ui/NEW-NOKIA/nokiaairscalewotool2_1_ui/build/static/

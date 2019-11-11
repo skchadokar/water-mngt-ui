@@ -1,0 +1,98 @@
+#wot_title {
+  text-align: center;
+  padding-bottom: 3%;
+  padding-top: 5%;
+  font-size: 14px;
+  color: #696969;
+}
+
+.login {
+  min-width: 100%;
+  align-items: center;
+  border-style: none;
+  border-color: white;
+ 
+}
+
+.loginlbl{
+  font-size: 20px;
+  color: blue;
+}
+
+#login_contents {
+  border: 1px solid #eee;
+  width: 40%;
+  margin-left: 20%;
+  box-shadow: 3px  2px 1px 3px rgb(181, 180, 180);
+  margin-bottom: 20%;
+  background: #fafafa;
+  border-radius: 10px;
+}
+
+#update_title {
+  padding-top: 4%;
+  font-size: 20px;
+  font-size: 3vw;
+}
+
+
+#logout {
+  padding-left: 104%;
+ 
+}
+
+#system_status_tip {
+  font-size: 15px;
+  font-size: 1vw;
+}
+
+.container {
+  margin-left: 10%;
+  margin-bottom: 10%;
+}
+
+#form-group {
+  min-width: 100%;
+  min-height: 100%;
+  font-size: 10px;
+  font-size: 2vw;
+}
+
+#domain_label {
+  font-size: 13px;
+}
+
+#input_domain {
+  font-size: 12px;
+  font-style: normal;
+}
+
+#username_label {
+  font-size: 13px;
+}
+
+#input_username {
+  font-size: 12px;
+  font-style: normal;
+}
+
+#pswd_label {
+  font-size: 13px;
+}
+
+#input_pswd {
+  font-size: 12px;
+  font-style: normal;
+}
+
+#wot-div {
+  margin-top: 2%;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+#login_btn {
+  margin-right: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+}

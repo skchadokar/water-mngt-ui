@@ -1,0 +1,468 @@
+.Workorder{
+  width: 95%;
+  margin-left:1%;
+  margin-right: auto;
+  border: 1px solid #eee;
+	box-shadow: 1px 2px 4px 2px rgb(208, 197, 197);
+  font-size: 12px;
+  font-weight: bold;
+	text-align: left;
+	background-color:rgba(250, 252, 252, 0.66);
+}
+
+.scHeader{
+	background: linear-gradient(rgb(243, 245, 245),rgb(211, 211, 211));
+}
+.scScroller{
+	overflow: auto;
+	height: 550px;;
+}
+.SecCarrier{
+	border-bottom: 0px solid #aaa;
+	box-shadow: 0px 2px 3px rgba(80, 47, 47, 0.993), 0 2px 2px rgba(219, 0, 0, 0.23);
+	padding-top: 10px !important;
+	padding-bottom: 3px !important;
+}
+
+/* .form-row{
+	padding-bottom: auto !important;
+} */
+
+.card-3 {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+input.form-control {
+	height: 24px !important;
+	padding-top: 1px !important;
+	padding-bottom: 1px !important;
+	padding-left: 2px !important;
+	padding-right: 2px !important;
+	font-size: 13px;
+	background: linear-gradient(rgb(255, 255, 255),rgb(249, 249, 249));
+}
+
+select.form-control {
+	height: 24px !important;
+	padding-top: 1px !important;
+	padding-bottom: 1px !important;
+	padding-left: 1px !important;
+	padding-right: 1px !important;
+	font-size: 13px;
+	background: linear-gradient(rgb(252, 255, 255),rgb(225, 225, 225));
+}
+
+
+.Select {
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+	font-size: 11px;
+	background: linear-gradient(rgb(255, 253, 252),rgb(225, 225, 225));
+}
+
+button {
+	display: inline-block;
+	padding: 5px 20px;
+	font-size: 12px;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: darkgray;
+	outline: none;
+	font-weight: bold;
+	color: rgb(242, 243, 243)  ;
+	background-color: rgb(120, 123, 124)    ;
+	border: 1;
+	border-radius: 8px;
+
+}
+button:hover {
+	background: linear-gradient(rgb(186, 37, 37),rgb(56, 18, 18));
+	color: rgb(222, 195, 195) 
+ }
+  
+button:active {
+	transform: translateY(1px);
+}
+
+div span{
+	vertical-align:center;
+	text-align : center;
+	color:  rgb(120, 123, 124) ;
+}
+
+div span #logout{
+	vertical-align: text-top;
+	text-align : right;
+	padding-left: 94%;
+	color:  rgb(120, 123, 124) ;
+}
+
+div span a{
+	color:  rgb(109, 109, 109) ;
+	font-weight: bold;
+	font-size: 14px;
+
+}
+
+
+div span a:hover{
+	color:  rgb(218, 64, 64) ;
+}
+
+
+.login{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 3px #ccc;
+  padding: 16px;
+  text-align: left;
+}
+
+.lognInput{
+	width: 200px;
+	padding-left: 10px;
+	border-radius: 10px;
+}
+
+label{
+	font-weight: bold;
+	font-size: 14px;
+}
+.wot-div{
+	font-weight: bold;
+	font-size: 12px;
+}
+ span label{
+   	color:  rgb(248, 11, 11) ;
+	padding-top: 1px;
+}
+
+.highLighter{
+	font-size: 11px;
+	font-weight: bold;
+	color:  rgb(114, 4, 4) ;
+	background:  rgba(241, 240, 240, 0.973) ;
+	padding: 5px 10px;
+	border-radius: 12px;
+	border-bottom: 0px solid #aaa;
+	box-shadow: 0px 2px 2px rgba(134, 133, 133, 0.993), 0 3px 2px rgba(77, 75, 75, 0.23);
+	width: 140px;
+}
+
+.button-del {
+	display: inline-block;
+	padding: 5px 20px;
+	font-size: 12px;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: darkgray;
+	outline: none;
+	font-weight: bold;
+	color: rgb(226, 6, 6)  ;
+	background-color: rgb(231, 231, 231)    ;
+	border: 1;
+	border-radius: 8px;
+}
+.button-del:hover {
+	background-color: rgba(211, 8, 8, 0.979);
+  color: rgb(255, 255, 255)  }
+  
+.button-del:active {
+	transform: translateY(1px);
+}
+
+.input{
+	width: 160px;
+}
+
+.padding{
+	padding-left: 10px;
+}
+.errorMsg{
+	text-align : left;
+	padding-left: 30px;
+	font-weight: normal;
+	color:  rgb(248, 11, 11) ;
+
+}
+.loginTable{
+	font-size: 12px;
+	padding:3px;
+}
+table{
+	font-size: 10px;
+	font-weight: bold;
+}
+
+table tr td{
+	padding:2px;
+}
+
+.banner{
+	color: rgb(187, 5, 5);
+	padding-top: 5px;
+	vertical-align: middle;
+}
+
+.popup {
+	position: fixed;
+	width:100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	background-color: rgba(0,0,0, 0.5);
+  }
+  .popup_inner {
+	position: absolute;
+	width:370px;
+	height: 330px;
+	left: 25%;
+	right: 25%;
+	top: 25%;
+	bottom: 25%;
+	margin: auto;
+	padding: 20px;
+	background:  rgb(243, 243, 243); 
+	box-shadow: 0 20px 20px rgba(94, 46, 46, 0.19), 0 10px 10px rgba(12, 1, 1, 0.23);
+  }
+
+
+  .switchTb{
+	width:100%;
+  }
+  .userName{
+		color: red;
+		text-align: right;
+		font-size: 12px;
+		font-weight: bold;
+		float: right;
+		padding-right: 6%;
+		padding-top: 4%
+	
+ }
+
+ .switch-button{
+	background:  rgb(103, 13, 13); 
+ }
+ .switch-button:hover{
+	background:  rgb(193, 3, 3); 
+	color: rgb(237, 222, 222);
+ }
+  .switch{
+	text-align: right;
+ }
+
+  .tooltip {
+	position: relative;
+	display: inline-block;
+	border-bottom: 1px dotted black;
+  }
+  
+  .tooltip .tooltiptext {
+	visibility: hidden;
+	width: 120px;
+	background-color: black;
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	padding: 5px 0;
+  
+	/* Position the tooltip */
+	position: absolute;
+	z-index: 1;
+  }
+  
+  .tooltip:hover .tooltiptext {
+	visibility: visible;
+  }
+
+  .section2{
+	padding-left: 55px;
+}
+.sideNav{
+	top: 115px !important;
+	padding-top:180px; 
+	background-color:  #ffffff!important;
+	height:100%!important;
+	color:red;
+	background-color:red;
+	
+}
+.sideNav button{
+   background-color:rgb(184, 46, 46);
+   color:red;
+}
+
+
+
+.menuSubOptions{
+	font-size: 11px;
+	color: rgb(29, 4, 252);
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.menuSubOptions:hover {
+	color: rgb(252, 4, 4);
+	font-weight: bold;
+	font-size: 11px;
+ }
+
+ .menuNextOptions{
+	font-size: 11px;
+	color: rgb(80, 62, 240);
+	font-weight: bold;
+	cursor: pointer;
+	float: right;
+}
+
+.menuNextOptions:hover {
+	color: rgb(169, 45, 45);
+	font-size: 11px;
+ }
+ 
+ .delIcon{
+	color: rgb(213, 174, 174);
+	font-weight: bold;
+	cursor: pointer;
+	float: right;
+}
+
+.delIcon:hover {
+	color: rgb(238, 11, 11);
+ }
+
+ .navbar{
+	position: relative;
+	padding-top: 500px;
+	margin-top: 10%
+  }
+.nav-tabs {
+    border-bottom: 1px solid #863d52;
+
+}
+
+.searchIcon{
+	color: rgb(0, 181, 253);
+	cursor: pointer;
+	position: relative;
+	padding-left:0px!important; 
+
+ }
+ .searchIcon:hover {
+	color: rgb(252, 1, 1);
+ }
+
+ .ag-header-cell-label .ag-header-cell-text {
+	color:rgba(106, 19, 19, 0.836);
+	text-overflow: clip !important;
+  overflow: visible !important;
+	white-space: normal !important;
+	font-size: 11px !important;
+	font-weight: bold;
+	line-height: 20px;
+	text-align: center!important;
+	}
+	
+  .ag-theme-balham .ag-header-cell, .ag-theme-balham .ag-header-group-cell {
+	box-shadow: 0px 2px 2px rgba(8, 8, 8, 0.19), 0 1px 1px rgba(7, 0, 0, 0.23);
+	background: linear-gradient(rgba(243, 244, 245, 0.865),rgba(193, 190, 190, 0.886))!important;
+	font-size: 11px !important;
+
+}
+
+.ag-theme-balham .ag-header-cell  {
+  background: rgb(236, 236, 238);
+  font-size: 14px !important;
+	font-weight: bold!important;
+}
+.ag-theme-balham .ag-ltr .ag-cell-focus {
+	border: 1px solid rgba(247, 251, 252, 0.575) !important;
+	outline: medium none invert;
+	font-size: 11px !important;
+	/* outline: initial; */
+}
+
+.ag-theme-balham .ag-row-even {
+	background-color: #fffdfdb0  !important;
+	font-size: 10px !important;
+
+}
+
+.ag-theme-balham .ag-row-odd {
+background-color: #f5f3f3b0  !important;
+font-size: 10px !important;
+}
+
+.ag-theme-balham .ag-row-even:hover {
+	background-color: #c8c8c9be  !important;
+	font-size: 12px !important;
+}
+
+.ag-theme-balham .ag-row-odd:hover {
+	background-color: #c8c8c9be  !important;
+	font-size: 12px !important;
+}
+.enodeBGrid{
+	padding-left: 12px;
+	padding-top: 0px;
+	padding-right: 15px;
+ }
+ 
+.enodeBHomeGrid{
+ background-color:rgba(250, 252, 252, 0.66);
+ overflow:scroll;
+ padding-left: 2px;
+}
+
+.linkColor{
+	color: rgb(17, 17, 235)  ;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 11px !important;
+
+}
+
+.linkColor:hover{
+	color: rgb(196, 15, 15)  ;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 13px !important;
+}
+
+
+.css-bys78g-wrapper-wrapper {
+    position: relative!important;
+    top: 0px!important; 
+    left: 0px!important; 
+    width:0px!important; 
+    height: 0px!important; 
+	margin-left: 0%!important;
+	background-color: #aaa!important;
+  }
+
+  .css-1ynzg80-wrapper-wrapper {
+    position: relative!important;
+    top: 0%!important; 
+    left: 2%!important; 
+    width: 0px!important; 
+    height: 0px!important; 
+	margin-left: 0%!important;
+	background-color: #aaa!important;
+}
+.loder-msg{
+	margin-left: 5%;
+	color:#0D7DFC;
+}
+.strong{
+	
+	font-size: 9px !important;
+
+}
